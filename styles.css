@@ -6,6 +6,7 @@
 }
 
 body {
+    background: linear-gradient(90deg, gray, white);
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -34,14 +35,14 @@ button {
     width: 100%;
     padding: 10px;
     margin-bottom: 10px;
-    background-color: rgb(85, 139, 255);
+    background-color: gray;
     color: white;
     border: none;
     cursor: pointer;
 }
 
 button:hover {
-    background-color: rgb(116, 160, 255);
+    background-color: rgb(185, 185, 185);
 }
 
 #output {
